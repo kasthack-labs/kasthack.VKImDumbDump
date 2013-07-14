@@ -30,11 +30,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EpicMorg.Net.AdvancedDownloadManager">
-      <HintPath>..\..\..\Github\AdvancedWebClient\bin\Debug\EpicMorg.Net.AdvancedDownloadManager.dll</HintPath>
+    <Reference Include="EpicMorg.Net.AdvancedDownloadManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\EpicMorg.Net.AdvancedDownloadManager.dll</HintPath>
     </Reference>
-    <Reference Include="HtmlAgilityPack">
-      <HintPath>..\..\..\Dropboxes\Team\Dropbox\TOOLS\LIBS\HtmlAgilityPack\HtmlAgilityPack.dll</HintPath>
+    <Reference Include="HtmlAgilityPack, Version=1.4.0.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\HtmlAgilityPack.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
